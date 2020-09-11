@@ -1,43 +1,89 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+body{
+	font-family: 'Roboto Mono', monospace;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+a {
+	margin: 0 5%;
+	color: white;
+	display: inline-block;
+}
+
+.visit{
+	border-width: 2rem 2rem 2rem 2rem;
+	background-color: #FF764E;
+	border-radius: 10%;
+	padding: 2rem;
+}
+
+.learn{
+  background-color: #5ED3EB;
+  border-width: 2rem 2rem 2rem 2rem;
+  border-radius: 10%;
+  padding: 2rem;
+}
+
+h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 70px;
+}
+.involved{
+  background-color: #FFCD69;
+  border-width: 2rem 2rem 2rem 2rem;
+  border-radius: 10%;
+  padding: 2rem;
+}
+nav {
+	text-align: center;
+}
+
+.round {
+	max-width: 25%;
+	height: auto;
+	border-radius: 50%;
+	padding: 2rem;
+	float: left;
+}
+
+.top {
+	display: inline-block;
+}
+
+section{
+	
+}
+
+section {
+	
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 10%;
+	
+}
+
+#history{
+	text-align: center;
+	margin-top: 7em;
+	background-color: #DDB9A3;
+
+}
+#travel {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 350px;
+}
+
+.centerimg{
+	max-width: 300px;
+	height: auto;
+}
+
+.footer {
+	margin: 0 auto;
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.bottomnav{
+	padding: 1rem;
+	background-color: #F9E7DC;
 }
